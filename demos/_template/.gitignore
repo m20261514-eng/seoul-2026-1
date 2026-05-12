@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# 실제 학생 데이터 보호 — sample_data.csv만 예외
+*.csv
+!sample_data.csv
+
+.DS_Store
+.vscode/
+.idea/
