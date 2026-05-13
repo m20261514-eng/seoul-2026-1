@@ -120,4 +120,4 @@ if selected_student:
     })
     st.write(f"**{selected_student} 학생의 단원별 점수 요약**")
     st.dataframe(summary_df, use_container_width=True, hide_index=True)
-    st.line_chart(summary_df.set_index("단원명")["학생 점수 단원별 평균".split()])
+    st.line_chart(summary_df.set_index("단원명")["학생 점수 단원별 평균"])
